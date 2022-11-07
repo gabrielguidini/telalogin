@@ -1,0 +1,53 @@
+body{
+    background-color:  #c6c6c6 ;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.bloco-total{
+    padding: 25px;
+    display: flex;
+}
+.bloco-left{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0;
+    padding: 10px
+}
+.login{
+    display: flex;
+    padding-bottom: 1px;
+    margin: 0%;
+}
+.bloco-right{
+    display: flex;
+}
+.img-cust{
+    width: 200px;
+    padding: 200px;
+    background-color:  #dcefed  ;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#login{
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+
+}
+#senha{
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+#submit{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+
+}
